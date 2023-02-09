@@ -23,7 +23,7 @@ stack.pop()
     } else if (obj[currentEl]==top && currentEl==top){
       stack.pop()
     } else {
-      return false
+      stack.push(currentEl)
     }
     }
   }
